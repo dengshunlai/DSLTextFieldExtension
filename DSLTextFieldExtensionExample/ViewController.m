@@ -21,7 +21,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //placeholder颜色
     _textField.dsl_textField_placeholderColor = [UIColor orangeColor];
+    //text最大长度
     _textField.dsl_textField_maxLength = 11;
     
     _textField2 = [[UITextField alloc] initWithFrame:CGRectMake(50, 200, [UIScreen mainScreen].bounds.size.width - 100, 30)];
