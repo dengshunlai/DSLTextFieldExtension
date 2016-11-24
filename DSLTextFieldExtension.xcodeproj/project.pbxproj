@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6EA2A0C1DE6DB7D0028C145 /* UITextField+DSLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA2A0B1DE6DB7D0028C145 /* UITextField+DSLExtension.m */; };
+		D6EA2A0E1DE6DB830028C145 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D6EA2A0D1DE6DB830028C145 /* README.md */; };
 		DD0D01B41DE356FB0056D829 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D01B31DE356FB0056D829 /* main.m */; };
 		DD0D01B71DE356FB0056D829 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D01B61DE356FB0056D829 /* AppDelegate.m */; };
 		DD0D01BA1DE356FB0056D829 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D01B91DE356FB0056D829 /* ViewController.m */; };
@@ -15,7 +17,6 @@
 		DD0D01C21DE356FB0056D829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0D01C01DE356FB0056D829 /* LaunchScreen.storyboard */; };
 		DD0D01CD1DE356FB0056D829 /* DSLTextFieldExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D01CC1DE356FB0056D829 /* DSLTextFieldExtensionTests.m */; };
 		DD0D01D81DE356FB0056D829 /* DSLTextFieldExtensionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D01D71DE356FB0056D829 /* DSLTextFieldExtensionUITests.m */; };
-		DD0D01E81DE3579E0056D829 /* UITextField+DSLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D01E71DE3579E0056D829 /* UITextField+DSLExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D6EA2A0A1DE6DB7D0028C145 /* UITextField+DSLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+DSLExtension.h"; sourceTree = "<group>"; };
+		D6EA2A0B1DE6DB7D0028C145 /* UITextField+DSLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+DSLExtension.m"; sourceTree = "<group>"; };
+		D6EA2A0D1DE6DB830028C145 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD0D01AF1DE356FB0056D829 /* DSLTextFieldExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSLTextFieldExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD0D01B31DE356FB0056D829 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD0D01B51DE356FB0056D829 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,8 +56,6 @@
 		DD0D01D31DE356FB0056D829 /* DSLTextFieldExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSLTextFieldExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD0D01D71DE356FB0056D829 /* DSLTextFieldExtensionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSLTextFieldExtensionUITests.m; sourceTree = "<group>"; };
 		DD0D01D91DE356FB0056D829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD0D01E61DE3579E0056D829 /* UITextField+DSLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+DSLExtension.h"; sourceTree = "<group>"; };
-		DD0D01E71DE3579E0056D829 /* UITextField+DSLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+DSLExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +83,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D6EA2A091DE6DB7D0028C145 /* DSLTextFieldExtension */ = {
+			isa = PBXGroup;
+			children = (
+				D6EA2A0A1DE6DB7D0028C145 /* UITextField+DSLExtension.h */,
+				D6EA2A0B1DE6DB7D0028C145 /* UITextField+DSLExtension.m */,
+			);
+			path = DSLTextFieldExtension;
+			sourceTree = "<group>";
+		};
 		DD0D01A61DE356FA0056D829 = {
 			isa = PBXGroup;
 			children = (
+				D6EA2A0D1DE6DB830028C145 /* README.md */,
+				D6EA2A091DE6DB7D0028C145 /* DSLTextFieldExtension */,
 				DD0D01B11DE356FB0056D829 /* DSLTextFieldExtensionExample */,
 				DD0D01CB1DE356FB0056D829 /* DSLTextFieldExtensionTests */,
 				DD0D01D61DE356FB0056D829 /* DSLTextFieldExtensionUITests */,
@@ -104,7 +117,6 @@
 		DD0D01B11DE356FB0056D829 /* DSLTextFieldExtensionExample */ = {
 			isa = PBXGroup;
 			children = (
-				DD0D01E51DE357700056D829 /* DSLTextFieldExtension */,
 				DD0D01B51DE356FB0056D829 /* AppDelegate.h */,
 				DD0D01B61DE356FB0056D829 /* AppDelegate.m */,
 				DD0D01B81DE356FB0056D829 /* ViewController.h */,
@@ -143,15 +155,6 @@
 			);
 			path = DSLTextFieldExtensionUITests;
 			sourceTree = "<group>";
-		};
-		DD0D01E51DE357700056D829 /* DSLTextFieldExtension */ = {
-			isa = PBXGroup;
-			children = (
-				DD0D01E61DE3579E0056D829 /* UITextField+DSLExtension.h */,
-				DD0D01E71DE3579E0056D829 /* UITextField+DSLExtension.m */,
-			);
-			path = DSLTextFieldExtension;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -291,8 +294,9 @@
 			files = (
 				DD0D01BA1DE356FB0056D829 /* ViewController.m in Sources */,
 				DD0D01B71DE356FB0056D829 /* AppDelegate.m in Sources */,
+				D6EA2A0E1DE6DB830028C145 /* README.md in Sources */,
 				DD0D01B41DE356FB0056D829 /* main.m in Sources */,
-				DD0D01E81DE3579E0056D829 /* UITextField+DSLExtension.m in Sources */,
+				D6EA2A0C1DE6DB7D0028C145 /* UITextField+DSLExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
